@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. gist 1`] = `
+"
+import sum from 'gist:rhiokim/badfbe21fb86dbbe031cac85bdc2043a#file-sum-js'
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const sum = (a, b) => a + b;
+"
+`;
+
+exports[`typo 1`] = `
+"
+import sum from 'giiist:rhiokim/badfbe21fb86dbbe031cac85bdc2043a#file-sum-js'
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import sum from 'giiist:rhiokim/badfbe21fb86dbbe031cac85bdc2043a#file-sum-js';
+"
+`;
+
+exports[`use cache 1`] = `
+"
+import sum from 'gist:rhiokim/badfbe21fb86dbbe031cac85bdc2043a#file-sum-js'
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const sum = (a, b) => a + b;
+"
+`;
