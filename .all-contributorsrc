@@ -18,6 +18,18 @@
         "test",
         "infra"
       ]
+    },
+    {
+      "login": "rhiokim",
+      "name": "Rhio Kim",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/145777?v=4",
+      "profile": "http://rhio.tistory.com",
+      "contributions": [
+        "code",
+        "doc",
+        "example",
+        "test"
+      ]
     }
   ]
 }
