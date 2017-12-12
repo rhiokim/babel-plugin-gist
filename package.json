@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-gist",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "transform import from gist",
   "license": "MIT",
   "repository": "rhiokim/babel-plugin-gist",
@@ -9,9 +9,7 @@
     "node": ">=4"
   },
   "main": "lib/index.js",
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "scripts": {
     "add-contributor": "all-contributors add",
     "precommit": "lint-staged",
@@ -28,21 +26,10 @@
     "validate": "npm run lint && npm run flow && npm run test"
   },
   "lint-staged": {
-    "*.js": [
-      "fmt",
-      "validate",
-      "git add"
-    ],
-    "*.json": [
-      "fmt",
-      "git add"
-    ]
+    "*.js": ["fmt", "validate", "git add"],
+    "*.json": ["fmt", "git add"]
   },
-  "keywords": [
-    "babel",
-    "babel-plugin",
-    "ast"
-  ],
+  "keywords": ["babel", "babel-plugin", "ast"],
   "devDependencies": {
     "all-contributors-cli": "^4.7.0",
     "babel-cli": "^6.26.0",

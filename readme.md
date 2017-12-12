@@ -54,4 +54,4 @@ of any kind welcome!
 
 ## License
 
-MIT © [akameco](http://akameco.github.io)
+MIT 
